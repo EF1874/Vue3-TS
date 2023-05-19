@@ -1,9 +1,4 @@
 {
-    "ts-node": {
-        "compilerOptions": {
-            "module": "CommonJS"
-        }
-    },
     "compilerOptions": {
         "target": "esnext",
         "module": "esnext",
@@ -17,7 +12,7 @@
         "allowSyntheticDefaultImports": true,
         "sourceMap": true,
         "baseUrl": ".",
-        "types": ["webpack-env", "node"],
+        "types": ["vite/client"],
         "paths": {
             "@/*": ["src/*"]
         },
